@@ -64,6 +64,7 @@
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
+					<dockerHost>https://localhost:2376</dockerHost>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
